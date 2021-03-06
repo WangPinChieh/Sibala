@@ -55,6 +55,7 @@
     <ItemGroup>
       <Compile Include="PointCalculator.cs" />
       <Compile Include="PointCalculatorTests.cs" />
+      <Compile Include="PointGroup.cs" />
       <Compile Include="PointResult.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

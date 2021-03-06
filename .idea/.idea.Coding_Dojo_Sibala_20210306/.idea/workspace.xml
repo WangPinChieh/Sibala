@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d26b61a-7d93-4d5c-bedf-609dbc7c41f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Coding_Dojo_Sibala_20210306/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coding_Dojo_Sibala_20210306/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculatorTests.cs" afterDir="false" />
     </list>
@@ -66,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614996637213</updated>
-      <workItem from="1614996642388" duration="3815000" />
+      <workItem from="1614996642388" duration="4648000" />
     </task>
     <servers />
   </component>
