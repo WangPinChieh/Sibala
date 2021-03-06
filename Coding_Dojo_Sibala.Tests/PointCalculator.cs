@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Coding_Dojo_Sibala.Tests
 {
@@ -8,7 +9,7 @@ namespace Coding_Dojo_Sibala.Tests
 
         public PointResult Calculate(string sequence)
         {
-            var splitPoints = sequence.Split(' ').Select(int.Parse).ToList();
+            var splitPoints = ToSplitPoints(sequence);
             var pointKindsCount = splitPoints.Distinct().Count();
             if (pointKindsCount == 2 || pointKindsCount == 4)
             {
@@ -24,11 +25,29 @@ namespace Coding_Dojo_Sibala.Tests
                 };
             }
 
+            var pointGroups = from d in splitPoints
+                group d by d
+                into groupSplitPoints
+                select new
+                {
+                    Point = groupSplitPoints.Key,
+                    Count = groupSplitPoints.Count()
+                };
+
+            var resultPoints = pointGroups.Where(m => m.Count == 1);
+
+
             return new PointResult
             {
-                Points = 7,
-                MaxNumber = 4
+                Points = resultPoints.Sum(m => m.Point),
+                MaxNumber = resultPoints.Max(m => m.Point)
             };
+        }
+
+        private static List<int> ToSplitPoints(string sequence)
+        {
+            var splitPoints = sequence.Split(' ').Select(int.Parse).ToList();
+            return splitPoints;
         }
 
         private static PointResult NoPoint()

@@ -69,6 +69,17 @@ namespace Coding_Dojo_Sibala.Tests
             PointResultShouldBe(expected, "2 2 4 3");
         }
 
+        [Test]
+        public void normal_point_6652()
+        {
+            var expected = new PointResult
+            {
+                Points = 7,
+                MaxNumber = 5
+            };
+            PointResultShouldBe(expected, "6 6 5 2");
+        }
+
         private void PointResultShouldBe(PointResult expected, string sequence)
         {
             expected.ToExpectedObject().ShouldEqual(_pointCalculator.Calculate(sequence));
