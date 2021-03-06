@@ -5,7 +5,7 @@ namespace Coding_Dojo_Sibala.Tests
 {
     public class PointCalculator
     {
-        private const int MaxPoints = 12;
+        private const int MaxNormalPoints = 12;
 
         public PointResult Calculate(string sequence)
         {
@@ -32,7 +32,7 @@ namespace Coding_Dojo_Sibala.Tests
             {
                 return new PointResult
                 {
-                    Points = MaxPoints + splitPoints[0],
+                    Points = MaxNormalPoints + splitPoints[0],
                     MaxNumber = splitPoints[0]
                 };
             }
