@@ -12,6 +12,7 @@
         <e p="packages.config" t="Include" />
         <e p="PointCalculator.cs" t="Include" />
         <e p="PointCalculatorTests.cs" t="Include" />
+        <e p="PointGroup.cs" t="Include" />
         <e p="PointResult.cs" t="Include" />
       </e>
       <e p="Coding_Dojo_Sibala_20210306.csproj" t="IncludeRecursive" />

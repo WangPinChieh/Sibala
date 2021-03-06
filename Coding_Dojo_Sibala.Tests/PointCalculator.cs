@@ -13,7 +13,7 @@ namespace Coding_Dojo_Sibala.Tests
             var pointGroups = ToPointGroups(splitPoints);
 
             var pointKindsCount = splitPoints.Distinct().Count();
-            if (pointKindsCount == 2 || pointKindsCount == 4)
+            if (pointKindsCount == 2 || pointGroups.Count() == 4)
             {
                 if (pointGroups.Count(m => m.Count == 2) == 2)
                 {
