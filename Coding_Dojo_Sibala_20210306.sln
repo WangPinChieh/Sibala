@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding_Dojo_Sibala_20210306", "Coding_Dojo_Sibala_20210306.csproj", "{932798DA-E85A-4A04-8185-C3529DDE297A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding_Dojo_Sibala.Tests", "Coding_Dojo_Sibala.Tests\Coding_Dojo_Sibala.Tests.csproj", "{CE267E54-643B-4267-9C6A-166270A8605F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{932798DA-E85A-4A04-8185-C3529DDE297A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{932798DA-E85A-4A04-8185-C3529DDE297A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{932798DA-E85A-4A04-8185-C3529DDE297A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE267E54-643B-4267-9C6A-166270A8605F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE267E54-643B-4267-9C6A-166270A8605F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE267E54-643B-4267-9C6A-166270A8605F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE267E54-643B-4267-9C6A-166270A8605F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

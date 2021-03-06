@@ -4,7 +4,13 @@
     <projectFile>Coding_Dojo_Sibala_20210306.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d26b61a-7d93-4d5c-bedf-609dbc7c41f8" name="Default Changelist" comment="" />
+    <list default="true" id="7d26b61a-7d93-4d5c-bedf-609dbc7c41f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Coding_Dojo_Sibala_20210306/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coding_Dojo_Sibala_20210306/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Coding_Dojo_Sibala_20210306/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coding_Dojo_Sibala_20210306/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Dojo_Sibala_20210306.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala_20210306.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Dojo_Sibala_20210306.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala_20210306.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Sibala.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1pMcvrwM4HjvebbKrETVT1WiXYG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614996637213</updated>
-      <workItem from="1614996642388" duration="631000" />
+      <workItem from="1614996642388" duration="1634000" />
     </task>
     <servers />
   </component>
@@ -62,6 +73,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
