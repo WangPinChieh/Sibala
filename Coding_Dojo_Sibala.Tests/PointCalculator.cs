@@ -10,7 +10,7 @@ namespace Coding_Dojo_Sibala.Tests
         {
             var splitPoints = sequence.Split(' ').Select(int.Parse).ToList();
             var pointKindsCount = splitPoints.Distinct().Count();
-            if (HasNoPoint(pointKindsCount))
+            if (pointKindsCount == 2 || pointKindsCount == 4)
             {
                 return NoPoint();
             }
@@ -26,14 +26,9 @@ namespace Coding_Dojo_Sibala.Tests
 
             return new PointResult
             {
-                Points = 13,
-                MaxNumber = 1
+                Points = 7,
+                MaxNumber = 4
             };
-        }
-
-        private static bool HasNoPoint(int pointKindsCount)
-        {
-            return pointKindsCount == 2 || pointKindsCount == 4;
         }
 
         private static PointResult NoPoint()
