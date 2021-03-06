@@ -9,16 +9,13 @@ namespace Coding_Dojo_Sibala.Tests
         public PointResult Calculate(string sequence)
         {
             var splitPoints = sequence.Split(' ').Select(int.Parse).ToList();
-            if (splitPoints.Distinct().Count() == 4)
+            var pointKindsCount = splitPoints.Distinct().Count();
+            if (HasNoPoint(pointKindsCount))
             {
-                return new PointResult
-                {
-                    Points = 0,
-                    MaxNumber = 0
-                };
+                return NoPoint();
             }
 
-            if (splitPoints.Distinct().Count() == 1)
+            if (AllTheSameKind(pointKindsCount))
             {
                 return new PointResult
                 {
@@ -32,6 +29,25 @@ namespace Coding_Dojo_Sibala.Tests
                 Points = 13,
                 MaxNumber = 1
             };
+        }
+
+        private static bool HasNoPoint(int pointKindsCount)
+        {
+            return pointKindsCount == 2 || pointKindsCount == 4;
+        }
+
+        private static PointResult NoPoint()
+        {
+            return new PointResult
+            {
+                Points = 0,
+                MaxNumber = 0
+            };
+        }
+
+        private static bool AllTheSameKind(int pointKindsCount)
+        {
+            return pointKindsCount == 1;
         }
     }
 }

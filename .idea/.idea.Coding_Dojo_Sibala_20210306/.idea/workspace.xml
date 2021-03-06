@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d26b61a-7d93-4d5c-bedf-609dbc7c41f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculatorTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/Coding_Dojo_Sibala.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/Coding_Dojo_Sibala.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Coding_Dojo_Sibala_20210306/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coding_Dojo_Sibala_20210306/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculatorTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +21,9 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Sibala.cs" />
       <option value="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/SibalaTests.cs" />
+      <option value="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointResult.cs" />
       <option value="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculatorTests.cs" />
       <option value="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointCalculator.cs" />
-      <option value="$PROJECT_DIR$/Coding_Dojo_Sibala.Tests/PointResult.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pMcvrwM4HjvebbKrETVT1WiXYG" />
@@ -67,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614996637213</updated>
-      <workItem from="1614996642388" duration="2188000" />
+      <workItem from="1614996642388" duration="2898000" />
     </task>
     <servers />
   </component>

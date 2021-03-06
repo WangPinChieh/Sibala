@@ -47,6 +47,17 @@ namespace Coding_Dojo_Sibala.Tests
             PointResultShouldBe(expected, "1 2 3 4");
         }
 
+        [Test]
+        public void no_point_all_points_3_same_1_different()
+        {
+            var expected = new PointResult
+            {
+                Points = 0,
+                MaxNumber = 0
+            };
+            PointResultShouldBe(expected, "6 6 6 3");
+        }
+
         private void PointResultShouldBe(PointResult expected, string sequence)
         {
             expected.ToExpectedObject().ShouldEqual(_pointCalculator.Calculate(sequence));
