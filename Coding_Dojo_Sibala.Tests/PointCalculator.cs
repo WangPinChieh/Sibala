@@ -10,9 +10,27 @@ namespace Coding_Dojo_Sibala.Tests
         public PointResult Calculate(string sequence)
         {
             var splitPoints = ToSplitPoints(sequence);
+            var pointGroups = from point in splitPoints
+                group point by point
+                into groupSplitPoints
+                select new
+                {
+                    Point = groupSplitPoints.Key,
+                    Count = groupSplitPoints.Count()
+                };
             var pointKindsCount = splitPoints.Distinct().Count();
             if (pointKindsCount == 2 || pointKindsCount == 4)
             {
+                if (pointGroups.Count(m => m.Count == 2) == 2)
+                {
+                    var maxPoint = pointGroups.Max(m => m.Point);
+                    return new PointResult
+                    {
+                        Points = maxPoint * pointGroups.First(m => m.Point == maxPoint).Count,
+                        MaxNumber = maxPoint
+                    };
+                }
+
                 return NoPoint();
             }
 
@@ -25,14 +43,6 @@ namespace Coding_Dojo_Sibala.Tests
                 };
             }
 
-            var pointGroups = from d in splitPoints
-                group d by d
-                into groupSplitPoints
-                select new
-                {
-                    Point = groupSplitPoints.Key,
-                    Count = groupSplitPoints.Count()
-                };
 
             var resultPoints = pointGroups.Where(m => m.Count == 1);
 
