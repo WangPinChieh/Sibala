@@ -15,7 +15,7 @@ namespace Coding_Dojo_Sibala.Tests
         private PointCalculator _pointCalculator;
 
         [Test]
-        public void all_the_same_kind()
+        public void all_the_same_kind_1111()
         {
             var expected = new PointResult
             {
@@ -23,6 +23,17 @@ namespace Coding_Dojo_Sibala.Tests
                 MaxNumber = 1
             };
             PointResultShouldBe(expected, "1 1 1 1");
+        }
+
+        [Test]
+        public void all_the_same_kind_6666()
+        {
+            var expected = new PointResult
+            {
+                Points = 18,
+                MaxNumber = 6
+            };
+            PointResultShouldBe(expected, "6 6 6 6");
         }
 
         private void PointResultShouldBe(PointResult expected, string sequence)
